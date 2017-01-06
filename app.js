@@ -66,7 +66,7 @@ var server = http.createServer(app);
  appmetrics.setConfig(mongo, config)
  appmetrics.enable('mongo')*/
 
-app.set('port', process.env.VCAP_APP_PORT || 3333);
+app.set('port', process.env.VCAP_APP_PORT || 5400);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 //app.use(express.favicon());

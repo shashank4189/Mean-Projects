@@ -85,7 +85,7 @@ exports.list = function(req, res) {
   });
 };
 
-// JSON API for getting a single poll
+// JSON API for getting a single poll data
 exports.poll = function(req, res) {
   // Poll ID comes in the URL
   var pollId = req.params.id;
